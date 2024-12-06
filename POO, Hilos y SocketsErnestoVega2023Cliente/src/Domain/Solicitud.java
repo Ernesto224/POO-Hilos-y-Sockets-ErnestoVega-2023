@@ -1,0 +1,47 @@
+package Domain;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+
+/**
+ *
+ * @author Ernesto
+ */
+public enum Solicitud {
+    
+    VERIFICACION_INICIO,
+    REGISTRAR_NUEVO,
+    CERRAR_SESSION,
+    INVITAR_AMIGO,
+    CREAR_PARTIDA,
+    INICIAR_PARTIDA,
+    SOLICITUD_AMISTAD,
+    SOLICITAR_JUGADORES,
+    ENVIAR_PUBLICACION,
+    ACTUALIZAR_ESTADO,
+    UNIRSE_A_PARTIDA,
+    ACEPTAR_AMIGO,
+    ENVIAR_ESTADO_JUGADOR,
+    FLECHA_LANZADA,
+    RANKING_JUGADORES,
+    TOMAR_DIAMANTE,
+    GUARDAR_MAPA,
+    SOLICITUD_ACEPTADA,
+    ENVIAR_JUGADOR,
+    ENVIAR_MAPA_JUEGO,
+    SOLICITAR_OPONENTES,
+    SOLICITAR_LISTA_AMIGOS,
+    NOTIFICAR_ESPADAZO,
+    SOLICITAR_DIAMANTES,
+    CAMBIAR_CASILLA_DIAMANTE,
+    DISTRIBUCION_CORRECTA,
+    ADQUIRIR_DIAMANTE,
+    ROBAR_DIAMANTES,
+    SOLICITAR_SOLICITUDES,
+    QUITAR_SOLICITUD,
+    ACEPTAR_SOLICITUD_GUARDADA,
+    NOTIFICAR_VICTORIA;
+
+}//enum
